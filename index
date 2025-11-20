@@ -1,1 +1,776 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+  <title>SK Interior</title>
+  <link rel="shortcut icon" href="images/me2.jpg" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+  <link rel="stylesheet" class="alternate-style" title="pink" href="css/skins/pink.css" type="text/css">
+  <link rel="stylesheet" class="alternate-style" title="blue" href="css/skins/blue.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="green" href="css/skins/green.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="orange" href="css/skins/orange.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="yellow" href="css/skins/yellow.css" type="text/css" disabled>
+  <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css">
+</head>
+
+<body>
+
+  <!-- <div class="preloader">
+    <div class="loader">
+
+    </div>
+  </div> -->
+
+  <div class="main-container">
+    
+    <div class="aside">
+      <div class="nav-toggler">
+      <i class="fa fa-list"></i>
+      </div>
+      <div class="aside-inner">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#">Srikant Jangid</a>
+        </div>
+        <!-- Nav -->
+        <ul class="nav">
+          <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+          <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+          
+          <li><a href="#blog"><i class="fa fa-envelope "></i>My Work</a></li>
+          <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-content">
+
+      <!-- Home Section -->
+       
+      <section class="home section active" id="home">
+        <div class="container">
+          <div class="intro">
+            <img src="images/me2.jpg" alt="profile" class="shadow-dark">
+            <h1>Srikant Jangid</h1>
+            <span class="iTyped"></span>
+            <div class="social-links">
+               <a href="tel:99743 16132"><i class="fa fa-phone"></i></a>
+               <a href="https://www.instagram.com/shrikantsharma92?igsh=YjYzM2ZnMncyYXFr"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.facebook.com/share/1BRNdcvDdN/"><i class="fa fa-facebook"></i></a>
+              <a href="mailto:jangidbhai50@gmail.com"><i class="fa fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!-- About Section -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>I'm SrikantJangid <span>Furniture Designer</span></h3>
+                  <p>Welcome to at [Sk Interior], we believe that furniture is more than just functional—it’s
+                     an expression of style, comfort, and craftsmanship. Each piece is thoughtfully designed and handcrafted with precision, 
+                     using the finest materials to ensure durability and timeless appeal. Whether you’re looking for a statement piece 
+                     to elevate your living space or custom furniture tailored to your vision, we bring passion and expertise to every creation. 
+                     From our workshop to your home, our mission is to create furniture that blends beauty, comfort, and quality, making 
+                     every space truly feel like home. </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <div class="info-item padd-15">
+                      <p>Birthday : <span>1 Jul 1987</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Age : <span>38</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Email : <span>jangidbhai50@gmail.com</span></p>
+                    </div>
+                    <!-- <div class="info-item padd-15">
+                      <p>Degree : <span>B.Tech</span></p>
+                    </div> -->
+                    <div class="info-item padd-15">
+                      <p>Phone : <span>+91 99743 16132</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>State : <span>Gujarat</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Work : <span>Available all Time</span></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <!-- <a href="images/cv/Pankaj_Jangid.pdf" class="btn">Download Cv</a> -->
+                      <a href="#contact" data-section-index="1" class="btn hire-me">Call Now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills padd-15">
+                  <div class="row">
+                    <div class="skill-item padd-15">
+                      <h5>Furniture</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width:95%;"></div>
+                        <div class="skill-porcent">
+                          95%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Glass</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 90%;"></div>
+                        <div class="skill-porcent">
+                          90%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>POP</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 90%;"></div>
+                        <div class="skill-porcent">
+                          90%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>MDF</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 90%;"></div>
+                        <div class="skill-porcent">
+                          90%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>PVC</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 90%;"></div>
+                        <div class="skill-porcent">
+                          90%
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="education padd-15">
+                  <h3 class="title">Our Craftsmanship</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2004 - 2025</h6>
+                          <h4 class="timeline-title">Furniture Maker</h4>
+                          <p class="timeline-text"> With over 21 years of hands-on experience, we have mastered the art of turning raw materials 
+                            into timeless furniture. Every design reflects a balance of tradition and innovation—crafted by skilled artisans and 
+                            supported by modern techniques. From selecting the finest plywood, MDF, and PVC to ensuring precise finishing, we focus 
+                            on quality at every stage. Our dedication to craftsmanship means that every piece is not just furniture, but a long-lasting 
+                            part of your home or workspace.
+                          </p>
+                        </div>
+
+
+                        <!-- <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2019 - 2020</h6>
+                          <h4 class="timeline-title">Higher Secondary School</h4>
+                          <p class="timeline-text">Shree Narayana International School <br>PERCENTAGE: 42.30</p>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="experience padd-15">
+                  <h3 class="title">Experience</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2004 – The Beginning</h6>
+                          <h4 class="timeline-title">Pooja Furniture</h4>
+                          <p class="timeline-text">Started as a small workshop with a vision to create durable, stylish, and affordable furniture for homes and offices.
+                          </p>
+                        </div>
+
+                         <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2010 – Expanding Craftsmanship</h6>
+                          <h4 class="timeline-title">Pooja Furniture</h4>
+                          <p class="timeline-text">Introduced modern machinery along with traditional skills, blending technology with artistry to deliver high-quality plywood and MDF furniture.
+                          </p>
+                        </div>
+
+                           <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2015 – Custom Furniture Solutions</h6>
+                          <h4 class="timeline-title">Pooja Furniture</h4>
+                          <p class="timeline-text">Began offering personalized furniture designs tailored to customer needs, from modular kitchens to luxury bedroom sets.
+                          </p>
+                        </div>
+
+                           <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2019 – Going Sustainable</h6>
+                          <h4 class="timeline-title">Sk Furniture</h4>
+                          <p class="timeline-text">Adopted eco-friendly practices by sourcing responsibly harvested wood and using recyclable materials in production.
+                          </p>
+                        </div>
+
+                           <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2023 – Modern Collections</h6>
+                          <h4 class="timeline-title">Sk Furniture</h4>
+                          <p class="timeline-text">Launched exclusive PVC and outdoor furniture ranges, combining durability with sleek modern designs.
+                          </p>
+                        </div>
+
+                           <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2025 – Today (21 Years Strong)</h6>
+                          <h4 class="timeline-title">Sk Furniture</h4>
+                          <p class="timeline-text">With over two decades of expertise, we continue to deliver timeless furniture, trusted by thousands of customers across homes, offices, and commercial spaces.
+                          </p>
+                        </div>
+
+
+
+                        <!-- <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> Dec 2023 - Mar 2024</h6>
+                          <h4 class="timeline-title">Infibusiness Solution</h4>
+                          <p class="timeline-text">As a WordPress Developer Intern, I worked on developing and maintaining 
+                            custom WordPress websites tailored to client requirements. I gained practical experience in 
+                            customizing themes and plugins, writing custom functions using PHP, and building responsive, 
+                            SEO-optimized websites. My responsibilities included creating dynamic pages with Elementor and Gutenberg,
+                             integrating third-party APIs, improving website performance, and ensuring cross-browser compatibility. 
+                             I also collaborated with design and content teams to implement UI/UX improvements and participated in 
+                             debugging and troubleshooting site issues. This internship significantly strengthened my skills in 
+                             WordPress core development, PHP, HTML, CSS, and JavaScript, and gave me valuable insight into full-cycle
+                              website development and deployment.
+                          </p>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-filter padd-15">
+              <button type="button" class="active" data-filter="all">All</button>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Portfolio Item -->
+            <div class="portfolio-item padd-15" data-category="web-design">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project1.png" alt="Web Design">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>User Quatation System </h4>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project2.png" alt="Photography">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Society Management Home page</h4>
+                </div> -->
+              </div>                      
+            </div>
+
+              <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project3.png" alt="Photography">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Society Management Home page</h4>
+                </div> -->
+              </div>                      
+            </div>
+
+             <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project4.png" alt="Photography">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Society Management Home page</h4>
+                </div> -->
+              </div>                      
+            </div>
+
+
+             <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project5.png" alt="Photography">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Society Management Home page</h4>
+                </div> -->
+              </div>                      
+            </div>
+
+
+              <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project6.png" alt="Wordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+             <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project7.png" alt="Wordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+            <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project8.png" alt="Wordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+            <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project9.png"alt="ordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+              <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project10.png"alt="ordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+              <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project11.png"alt="ordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+              <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project12.png"alt="ordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+            <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project13.png"alt="ordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+            <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project14.png"alt="ordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+            <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project15.png"alt="ordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+            <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project16.png"alt="ordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+            <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project17.png"alt="ordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+            <div class="portfolio-item padd-15" data-category="photography">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/project18.png"alt="ordpress">
+                </div>
+                <!-- <div class="portfolio-info">
+                  <h4>Khaana Khazana</h4> 
+                 ?
+                </div> -->
+              </div>
+            </div>
+
+            
+
+
+            
+            <!-- Portfolio Item End -->
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+
+      <!-- Blog Section -->
+      <section class="blog section" id="blog">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>My Work</h2>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="blog-item padd-15">
+              <div class="blog-item-inner shadow-dark">
+                <div class="blog-img">
+                  <img src="images/blog/project1.png" alt="">
+                  <div class="blog-date"> 
+                    Furniture
+                  </div>
+                </div>
+                <div class="blog-info">
+                  <h4 class="blog-title">Plywood Furniture</h4>
+                  <p class="blog-description">Plywood is one of the most versatile and widely used materials in furniture making. 
+                    It is made by layering thin sheets of wood veneer together with adhesive, with each layer’s 
+                    grain running perpendicular to the previous one. This cross-grain construction gives plywood 
+                    excellent strength, stability, and resistance to warping compared to solid wood. Plywood furniture 
+                    is popular for its durability, affordability, and modern aesthetic.</p>
+                  <h4 class="blog-title">Plywood Furniture Using in:</h4>
+                  <ul class="blog-tags"style="padding-left: 20px;">
+                    <li>Beds and headboards</li>
+                    <li>Dining and coffee tables</li>
+                    <li>Wardrobes and cabinets</li>
+                    <li>Chairs and benches</li>
+                    <li>Shelves and storage units</li>
+                    <li>Modular kitchen units</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-item padd-15">
+              <div class="blog-item-inner shadow-dark">
+                <div class="blog-img">
+                  <img src="images/blog/project2.png" alt="">
+                  <div class="blog-date">
+                    MDF Furniture
+                  </div>
+                </div>
+                <div class="blog-info">
+                  <h4 class="blog-title">MDF Furniture</h4>
+                  <p class="blog-description">MDF, or Medium-Density Fiberboard, is an engineered wood product made by breaking down 
+                    hardwood or softwood residuals into fine fibers, combining them with resin and wax, and then
+                     pressing them under high temperature and pressure. MDF is smooth, uniform, and free of knots, 
+                     making it ideal for creating modern, precise, and intricately designed furniture. It is widely 
+                     used in interior furniture due to its affordability, versatility, and ease of finishing. </p>
+                  <h4 class="blog-title">MDF Furniture Using in:</h4>
+                  <ul class="blog-tags"style="padding-left: 20px;">
+                     <li>Cabinets and wardrobes</li>
+
+                      <li> OTables (dining, coffee, office)</li>
+
+                      <li> TV units and entertainment centers</li>
+
+                      <li> Garden benches and outdoor tables</li>
+
+                      <li>Drawer units and organizers</li>
+
+                      <li> Decorative wall panels</li>
+
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-item padd-15">
+              <div class="blog-item-inner shadow-dark">
+                <div class="blog-img">
+                  <img src="images/blog/project3.jpg" alt="">
+                  <div class="blog-date">
+                    PVC Furniture
+                  </div>
+                </div>
+                <div class="blog-info">
+                  <h4 class="blog-title">PVC Furniture</h4>
+                  <p class="blog-description">PVC furniture is made from polyvinyl chloride, a lightweight, durable, and 
+                    versatile plastic material. Over the years, PVC has become a popular choice for modern furniture
+                     due to its water resistance, affordability, and ease of maintenance. PVC furniture is widely used
+                      in residential, commercial, and outdoor settings because it offers a balance of practicality and design flexibility.</p>
+                  <h4 class="blog-title">PVC Furniture Using in:</h4>
+                  <ul class="blog-tags"style="padding-left: 20px;">
+                     <li>Wardrobes and cabinets</li>
+
+                      <li> Office desks and chairs</li>
+
+                      <li> Storage racks and shelves</li>
+
+                      <li> Garden benches and outdoor tables</li>
+
+                      <li> TV units and kitchen units</li>
+
+                      <li> Modular partitions</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Item End -->
+          </div>
+        </div>
+      </section>
+      <!-- Blog Section End -->
+
+      <!-- Contact Section -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- contact-info-item  -->
+            <div class="contact-info-item padd-15">
+              <div class="icon">  
+                <i class="fa fa-phone"></i>
+                <a target="_blank" href="tel: 99743 16132">
+                  <div class="media">
+                    <h4>Call Us On</h4>
+                    <p>+91 99743 16132</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- <div class="contact-info-item padd-15">
+              <div class="icon">
+                <i class="fa fa-github"></i>
+                <a target="_blank" href="https://github.com/sbfuiaebfae">
+                  <div class="media">
+                    <h4>Github</h4>
+                    <p>github.com/SrikantJangid</p> 
+                    a  
+                  </div>
+                </a>
+              </div>
+            </div> -->
+
+          
+            <!-- <div class="contact-info-item padd-15">
+              <div class="icon">
+                <i class="fa fa-linkedin"></i>
+                <a target="_blank" href="https://www.linkedin.com/in/pankaj-jangid-b349a3310/">
+                  <div class="media">
+                    <h4>Linkedin</h4>
+                    <p>https://www.linkedin.com/in/pankaj-jangid-b349a3310/</p>
+                  </div>
+                </a>
+
+              </div>
+            </div> -->
+
+            <div class="contact-info-item padd-15">
+              <div class="icon">
+                <i class="fa fa-instagram"></i>
+                <a target="_blank" href="https://www.instagram.com/shrikantsharma92?igsh=YjYzM2ZnMncyYXFr">
+                  <div class="media">
+                    <h4>Instagram </h4>
+                    <p>https://insta.com/shrikantsharma92</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-info-item padd-15">
+              <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <a target="_blank" href="https://www.facebook.com/share/1BRNdcvDdN/">
+                  <div class="media">
+                    <h4>Facebook</h4>
+                    <p>https://www.facebook.com/profile.php</p>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+
+              <div class="contact-info-item padd-15">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+                <a target="_blank" href="mailto:jangidbhai50@gmail.com">
+                  <div class="media">
+                    <h4>Email</h4>
+                    <p>jangidbhai50@gmail.com</p>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+
+            <!-- contact-info-item end -->
+          </div>
+          <!-- Contact Form End -->
+        </div>
+      </section>
+      <!-- Contact Section End -->
+
+    </div>ption">
+    <div class="caption-text"></div>
+    <div class="caption-counter"></div>
+  </div>
+  </div>
+  <div class="lightbox">
+    <div class="lightbox-content">
+      <div class="lightbox-close">&times;</div>
+      <img src="" alt="" onclick="nextItem()" class="lightbox-img">
+      <div class="lightbox-cantent"></div>
+    </div>
+    <div class="lightbox-controls">
+        <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+        <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
+      </div>
+    </div>
+
+
+    <div class="style-switcher">
+      <div class="toggle-style-switcher">
+        <i class="fa fa-cog fa-spin"></i>
+      </div>
+      <h5>Style Switcher</h5>      
+      <ul>
+        <li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839;"
+            onclick="setActiveStyle('pink')"></a></li>
+        <li><a href="javascript:void(0);" title="blue" style="background-color: #2196f3;"
+            onclick="setActiveStyle('blue')"></a></li>
+        <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f;"
+            onclick="setActiveStyle('orange')"></a></li>
+        <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;"
+            onclick="setActiveStyle('yellow')"></a></li>
+        <li><a href="javascript:void(0);" title="green" style="background-color: #72b626;"
+            onclick="setActiveStyle('green')"></a></li>
+      </ul>
+      <h5>Body Skin</h5>
+      <label>
+        <input type="radio" class="body-skin" name="body-skin" value="light" checked="true"> Light
+      </label>
+      <label>
+        <input type="radio" class="body-skin" name="body-skin" value="dark"> Dark
+      </label>
+    </div>
+
+    <script src="js/ityped.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+</body>
+
+</html>
